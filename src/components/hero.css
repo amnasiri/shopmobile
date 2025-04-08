@@ -1,0 +1,100 @@
+.hero {
+    background: linear-gradient(90.7deg, #211C24 0.64%, #211C24 101%);
+    display: flex
+;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.hero span , .hero h1 {
+    color: #FFFFFF;
+
+}
+
+.hero h1 {
+    font-size: 96px;
+}
+
+.h1-h {
+    gap: 20px;
+    display: flex
+;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.hero button {
+    border: 1px solid #FFFFFF;
+    width: 191;
+height: 56;
+gap: 8px;
+padding-top: 16px;
+padding-right: 56px;
+padding-bottom: 16px;
+padding-left: 56px;
+border-radius: 6px;
+border-width: 1px;
+background-color: #c8c8c800;
+color: white;
+
+}
+
+.h1-y{
+    font-weight: 400;
+}
+
+.h1-d{
+    font-weight: 600;
+}
+
+.t-h div {
+    margin: 20px 0px;
+}
+
+.t-h span {
+    font-size: 24px;
+}
+
+.d-h span {
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+    .hero {
+        background: linear-gradient(90.7deg, #211C24 0.64%, #211C24 101%);
+        display: flex
+    ;
+        justify-content: space-around;
+        
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .hero h1 {
+        font-size: 42px !important;
+    }
+.hero .t-h{
+            display: flex
+        ;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 40px 0px 20px 0px;
+        gap: 16px;        
+    }
+
+    .hero img {
+    width: 321px;
+    height: 289px;
+    left: 11px;
+
+    }
+
+}
